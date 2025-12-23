@@ -13,7 +13,3 @@ docker run -it -v /home/ubuntu/.ssh:/home/ubuntu/.ssh -v /var/run/docker.sock:/v
 ## Notes
 az login
 
-
-
-
-
