@@ -13,7 +13,7 @@ docker run -it -v /home/ubuntu/.ssh:/home/ubuntu/.ssh -v /var/run/docker.sock:/v
 ## Notes
 az login
 
-az ad sp create-for-rbac --name "cae-azure-development" --role "Contributor" --scopes "/subscriptions/<SUBSCRIPTION_ID>
+
 
 
 
