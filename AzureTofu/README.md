@@ -17,4 +17,3 @@ az login
 
 
 
-az login --service-principal --username <appId> --password <password> --tenant <tenantId>
