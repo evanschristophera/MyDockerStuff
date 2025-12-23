@@ -1,0 +1,39 @@
+# Azure authentication settings
+ARM_CLIENT_ID=8548e67b-a506-47af-963d-0b6940ac8a9c
+ARM_CLIENT_SECRET=xM9D0l_g62FqCJ-_-rvUjUO-4766_lsYN2
+ARM_TENANT_ID="c9739f94-aeaa-44c2-9360-984728ebfa3e"
+ARM_SUBSCRIPTION_ID=9ad51a98-c8b3-4598-bf60-0419320195f1
+ARM_ENVIRONMENT=usgovernment
+
+# (Optional) Useful for Azure CLI or SDKs
+AZURE_CLIENT_ID=8548e67b-a506-47af-963d-0b6940ac8a9c
+AZURE_CLIENT_SECRET=xM9D0l_g62FqCJ-_-rvUjUO-4766_lsYN2
+AZURE_TENANT_ID=6dbe736e-d3ea-4ca9-ba0c-7162cddcbc47
+AZURE_SUBSCRIPTION_ID=9ad51a98-c8b3-4598-bf60-0419320195f1
+TF_LOG=INFO
+TF_LOG_PATH=./ignored/terraform.log
+
+
+# This might work in place of the service principal
+# ARM_USE_AZUREAD=true
+
+
+TF_VAR_sql_user=evansc
+TF_VAR_sql_password='F@t34erdfcv#$ERDFCV'
+TF_VAR_sql_db=Z_DEV_evansc_RELEASE
+TF_VAR_sql_server=sqlmi-navwlv-prod-usgovvirginia-default-hinx.3456ba39c7a2.database.usgovcloudapi.net
+TF_VAR_sql_port=1433
+
+TF_VAR_service_plan_sku="B3"
+
+# SQL_USER="evansc"
+# SQL_PASSWORD="F@t34erdfcv#$ERDFCV"
+# SQL_DB="Z_DEV_evansc_RELEASE"
+# SQL_SERVER="sqlmi-navwlv-prod-usgovvirginia-default-hinx.3456ba39c7a2.database.usgovcloudapi.net"
+# SQL_PORT=1433
+
+# SQL_USER="evansc"
+# SQL_PASSWORD="F@t34erdfcv#$ERDFCV"
+# DB_NAME="Z_DEV_evansc_RELEASE"
+# DB_SERVER="sqlmi-navwlv-prod-usgovvirginia-default-hinx.3456ba39c7a2.database.usgovcloudapi.net"
+# DB_SERVER_PORT=1433
